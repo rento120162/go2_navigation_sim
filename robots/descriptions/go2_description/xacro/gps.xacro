@@ -26,7 +26,7 @@
 
   <!-- trunkに固定 -->
   <joint name="gps_joint" type="fixed">
-    <parent link="trunk"/>
+    <parent link="base_link"/>
     <child link="gps_link"/>
     <!-- 上にちょっと乗せる -->
     <origin xyz="0 0 0.1" rpy="0 0 0"/>
